@@ -3,17 +3,17 @@ const chalk = require('chalk');
 
 $('dist')
   .isDirectory()
-  .hasFile('antd-with-locales.js')
-  .hasFile('antd-with-locales.min.js')
-  .hasFile('antd.css')
-  .hasFile('antd.min.css')
-  .hasFile('antd.js')
-  .hasFile('antd.min.js')
-  .hasFile('antd.less')
-  .hasFile('antd.dark.less')
-  .hasFile('antd.dark.css')
-  .hasFile('antd.compact.less')
-  .hasFile('antd.compact.css')
+  .hasFile('t123456-antd-with-locales.js')
+  .hasFile('t123456-antd-with-locales.min.js')
+  .hasFile('t123456-antd.css')
+  .hasFile('t123456-antd.min.css')
+  .hasFile('t123456-antd.js')
+  .hasFile('t123456-antd.min.js')
+  .hasFile('t123456-antd.less')
+  .hasFile('t123456-antd.dark.less')
+  .hasFile('t123456-antd.dark.css')
+  .hasFile('t123456-antd.compact.less')
+  .hasFile('t123456-antd.compact.css')
   .hasFile('dark-theme.js');
 
 // eslint-disable-next-line no-console

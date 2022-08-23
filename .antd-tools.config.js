@@ -41,7 +41,7 @@ function buildThemeFile(theme, vars) {
   // Build less entry file: dist/antd.${theme}.less
   if (theme !== 'default') {
     fs.writeFileSync(
-      path.join(process.cwd(), 'dist', `antd.${theme}.less`),
+      path.join(process.cwd(), 'dist', `t123456-antd.${theme}.less`),
       `@import "../lib/style/${theme}.less";\n@import "../lib/style/components.less";`,
     );
     // eslint-disable-next-line no-console
@@ -77,7 +77,7 @@ function finalizeDist() {
   if (fs.existsSync(path.join(__dirname, './dist'))) {
     // Build less entry file: dist/antd.less
     fs.writeFileSync(
-      path.join(process.cwd(), 'dist', 'antd.less'),
+      path.join(process.cwd(), 'dist', 't123456-antd.less'),
       '@import "../lib/style/default.less";\n@import "../lib/style/components.less";',
     );
     // eslint-disable-next-line no-console
